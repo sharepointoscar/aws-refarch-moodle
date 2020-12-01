@@ -3,6 +3,7 @@ project:
   owner: quickstart-eng@amazon.com
   regions:
   - us-east-2
+  s3_bucket: moodle-templates
   template: templates/01-existingvpc.yaml
   parameters:
     RemoteAccessCIDR: 10.0.0.0/16
